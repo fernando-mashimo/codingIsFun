@@ -1,3 +1,5 @@
+//Calculates a proxy of Pi by means of a very simplistic approach (yet very defying for me to implement)
+
 /*n const n = Number(prompt("Digite:"));
 
 function calcPi(n){

@@ -1,3 +1,5 @@
+//Calculates the Least Common Multiple (LCM) of two integer numbers
+
 function mmc(number1, number2) {
     if (number1 % number2 === 0) { return number1; }
     else if (number2 % number1 === 0) { return number2; }

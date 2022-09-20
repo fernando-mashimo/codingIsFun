@@ -1,4 +1,4 @@
-//Leia um número em algarismos romanos e converta-o em algarismos indo-arábicos
+//From Leetcode: convert a number written in Roman to Hindu-Arabic numerals
 
 let s = 'MMXVI';
 let integer = 0;
