@@ -6,4 +6,8 @@ A few random coding challenges I took - only for mental health purposes :).
 - leetCode_Roman2Numbers.js: convert a number written in Roman to Hindu-Arabic numerals.
 - factorial_recursive.js: calculates the factorial of an integer (on JS, max number is around 175 - above that, it returns 'Infinity'... ;))
 
+Directories:
+- ./GrokkingAlgorithms: books' algorithms written in JavaScript;
+- ./frontEndMentor: a project still to be initiated.
+
 I expect to grow this repo as time goes by...
