@@ -1,0 +1,26 @@
+{
+  "name": "codingisfun",
+  "version": "1.0.0",
+  "description": "A few random coding challenges I took - only for mental health purposes :).",
+  "main": "calcula_MMC.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando-mashimo/codingIsFun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando-mashimo/codingIsFun/issues"
+  },
+  "homepage": "https://github.com/fernando-mashimo/codingIsFun#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.3.1"
+  }
+}
