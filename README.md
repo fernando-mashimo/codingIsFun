@@ -7,7 +7,8 @@ A few random coding challenges I took - only for mental health purposes :).
 - factorial_recursive.js: calculates the factorial of an integer (on JS, max number is around 175 - above that, it returns 'Infinity'... ;))
 
 Directories:
-- ./GrokkingAlgorithms: books' algorithms written in JavaScript;
-- ./frontEndMentor: a project still to be initiated.
+- GrokkingAlgorithms: books' algorithms written in JavaScript;
+- frontEndMentor: a project still to be initiated.
+- codeWars: codes I've submitted for each challenge.
 
 I expect to grow this repo as time goes by...
