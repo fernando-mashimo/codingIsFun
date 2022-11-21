@@ -10,5 +10,6 @@ Directories:
 - GrokkingAlgorithms: books' algorithms written in JavaScript;
 - frontEndMentor: a project still to be initiated.
 - codeWars: codes I've submitted for each challenge.
+    - I've been using the TDD approach to solve challenges.
 
 I expect to grow this repo as time goes by...
