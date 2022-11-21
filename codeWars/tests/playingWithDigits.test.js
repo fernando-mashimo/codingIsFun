@@ -1,7 +1,11 @@
 const { digPow } = require('../playingWithDigits');
 
 describe('Verify if digPow function returns expected results', () => {
-  it('digPow(89, 1) returns 1', () => {
+  it('digPow is a function', () => {
+    expect(typeof digPow).toBe('function');
+  });
+  
+    it('digPow(89, 1) returns 1', () => {
     expect(digPow(89, 1)).toBe(1);
   });
   
