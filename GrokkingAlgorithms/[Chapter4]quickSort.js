@@ -1,29 +1,18 @@
-const quicksort = (array) => {
-  if (array.length < 2) return array;
+const quicksort = (unsortedArray) => {
+  if (unsortedArray.length < 2) return unsortedArray;
   
-  const pivot = array[0];
-  const newArray = array.slice(1);
+  const pivot = unsortedArray[0];
+  const newArray = unsortedArray.slice(1);
   const lower = [];
   const higher = [];
-  const resultArray = [];
   
-  for (let element of newArray) {
-    if (element < pivot) lower.push(element);
-    else higher.push(element);
-  }
+  newArray.forEach((element) =>
+    element < pivot
+    ? lower.push(element)
+    : higher.push(element)
+  );
   
-  const lowerSorted = quicksort(lower);
-  const higherSorted = quicksort(higher);
-  
-  for (let element of lowerSorted) {
-    resultArray.push(element);
-  }
-  resultArray.push(pivot);
-  for (let element of higherSorted) {
-    resultArray.push(element);
-  }
-  
-  return resultArray;
+  return quicksort(lower).concat([pivot]).concat(quicksort(higher))
 };
 
 console.log(quicksort([999, 3, 5, 2, 1, 4, 10, 1235, 25, 36, 7, 6, 98, 135, 27]));

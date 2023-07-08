@@ -12,4 +12,6 @@ def quicksort(list):
             lower.append(element) if element <= pivot else higher.append(element)
         return quicksort(lower) + [pivot] + quicksort(higher)
 
+newList = list(range(500))
+print(quicksort(newList))
 print(quicksort([10, 5, 2, 3]))
